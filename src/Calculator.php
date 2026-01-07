@@ -1,5 +1,4 @@
 <?php
-
 namespace App;
 
 class Calculator
@@ -14,3 +13,5 @@ class Calculator
     return $a - $b;
   }
 }
+เขียนถึง Apisitchai Chutanom
+
