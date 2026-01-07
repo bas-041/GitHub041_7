@@ -1,4 +1,5 @@
 <?php
+
 use PHPUnit\Framework\TestCase;
 use App\Calculator;
 
@@ -12,8 +13,8 @@ class CalculatorTest extends TestCase
   }
   public function testSubtract()
   {
-  $calc = new Calculator();
-  $this->assertEquals(1, $calc->subtract(3, 2));
-  $this->assertEquals(-2, $calc->subtract(-1, 1));
+    $calc = new Calculator();
+    $this->assertEquals(1, $calc->subtract(3, 2));
+    $this->assertEquals(-2, $calc->subtract(-1, 1));
   }
 }
